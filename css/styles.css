@@ -1,0 +1,72 @@
+/****************************************/
+/* PAGE STYLING                         */
+/****************************************/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: auto;
+    margin: auto;
+}
+
+.container {
+    color: white;
+    margin: 25px;
+}
+  
+nav {
+    background-color: white;
+    text-align: center;
+}
+
+main {
+    background-color: white;  
+}
+
+
+/****************************************/
+/* SEARCH BAR STYLING                   */
+/****************************************/
+  
+  
+.searchBlock input {
+    display: block;
+    margin: 2em auto 2em;
+    font-size: 1.0em;    
+    width: 575px;
+    max-width: 85%;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid rgba(161, 154, 154, .4); 
+    padding-left: 15px;
+}
+
+input:focus {
+    background: rgba(62, 202, 212, .3);
+    color: rgb(133, 133, 142);
+}
+  
+  
+/****************************************/
+/* GRID STYLING                         */
+/****************************************/
+  
+  
+.gallery {
+      display: grid;
+      max-width: 1000px;    
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 25px;
+      margin: 2px auto;
+}
+  
+.gallery img {
+      width: 100%;
+}
+  
+  
