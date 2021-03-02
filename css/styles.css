@@ -58,14 +58,10 @@ input:focus {
   
 .gallery {
       display: grid;
-      max-width: 1000px;    
+      max-width: 900px;    
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap: 25px;
       margin: 2px auto;
-}
-  
-.gallery img {
-      width: 100%;
 }
   
   
