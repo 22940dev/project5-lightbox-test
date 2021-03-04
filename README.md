@@ -1,2 +1,2 @@
 # techdegree-project-5
- my fifth Techdegree project
+Project 5 (Dynamic Image Gallery)
